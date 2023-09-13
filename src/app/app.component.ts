@@ -7,7 +7,9 @@ import * as jalaliMoment from 'jalali-moment';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-/** https://github.com/fingerpich/jalali-moment#angular */
+/** https://github.com/fingerpich/jalali-moment#angular
+ *
+ * https://stackblitz.com/edit/angular-jalali-datepicker?file=app%2Fmat-core%2Fjalali_moment_formats.ts */
 export class AppComponent {
 
   iranHoliday: Record<number, number[]> = {
